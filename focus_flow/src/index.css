@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* Make sure the background covers the entire viewport and avoid black rubber-band overscroll */
+html, body, #root {
+  height: 100%;
+  min-height: 100%;
+  background-color: #f7f7f4;
+}
+
+body {
+  overscroll-behavior: none;
+  scroll-behavior: smooth;
+}

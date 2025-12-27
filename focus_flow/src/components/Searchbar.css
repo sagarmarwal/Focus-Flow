@@ -1,0 +1,41 @@
+
+.group {
+    display: flex;
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+    max-width: 190px;
+   }
+   
+   .icon {
+    position: absolute;
+    left: 1rem;
+    fill: #9e9ea7;
+    width: 1rem;
+    height: 1rem;
+   }
+   
+   
+
+  .krit {
+    background: none;
+    border: none;
+    padding: 15px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    /* no fixed margins – layout handled by parent flex */
+  }
+  
+  .krit:hover {
+    background: rgba(170, 170, 170, 0.062);
+    transition: 0.5s;
+  }
+  
+  .krit svg {
+    color: #000000;
+  }
+  
+  .krit:focus-visible {
+    outline: 2px solid #7c3aed; /* purple focus outline */
+    outline-offset: 2px;
+  }

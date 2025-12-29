@@ -42,7 +42,7 @@ Install my-project with npm
 Clone the project
 
 ```bash
-  git clone https://github.com/kritgarg/Focus-flow.git
+  git clone https://github.com/sagarmarwal/Focus-Flow.git
 ```
 
 Go to the project directory

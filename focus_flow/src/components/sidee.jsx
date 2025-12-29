@@ -6,7 +6,6 @@ import { LuListTodo, LuCalendar1 } from "react-icons/lu";
 import { IoChatboxOutline } from "react-icons/io5";
 import { GrProjects } from "react-icons/gr";
 import { RiFocus2Line } from "react-icons/ri";
-import { FaHeadSideVirus } from "react-icons/fa6";
 
 const Sidee = () => {
   const [open, setOpen] = useState(false);
@@ -143,9 +142,6 @@ const Sidee = () => {
           </NavLink>
           <NavLink to="/chatgpt" className={({ isActive }) => isActive ? 'active-link' : ''} onClick={closeMenu}>
             <li><IoChatboxOutline /> CHATGPT</li>
-          </NavLink>
-          <NavLink to="/developer" className={({ isActive }) => isActive ? 'active-link' : ''} onClick={closeMenu}>
-            <li><FaHeadSideVirus /> DEVELOPER</li>
           </NavLink>
         </nav>
       </div>

@@ -4,7 +4,6 @@
 FocusFlow is a real-time productivity dashboard designed to enhance focus and efficiency. It features a Pomodoro timer, to-do list, mood tracker, productivity tips. With gamified progress tracking and responsive animations, FocusFlow provides a clean, intuitive user experience to boost productivity and maintain focus throughout the day.
 ## Demo
 
-https://focusflow-krit.vercel.app/
 ## FAQ
 
 #### What is FocusFlow?
@@ -42,7 +41,7 @@ Install my-project with npm
 Clone the project
 
 ```bash
-  git clone https://github.com/kritgarg/Focus-flow.git
+  git clone https://github.com/sagarmarwal/Focus-Flow.git
 ```
 
 Go to the project directory
